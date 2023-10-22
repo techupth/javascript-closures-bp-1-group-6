@@ -23,11 +23,13 @@ let productSales = [
 function calculateTotalSales(items) {
   let total = 0;
   for (let item of items) {
-    total = total + item.sale;
+    //total = total + item.sale;
+    total = total + item.sales;
   }
   return total;
 }
 
-let total = calculateTotalSales();
+//let total = calculateTotalSales();
+let total = calculateTotalSales(productSales);
 
 console.log("Total sales: ", total);
