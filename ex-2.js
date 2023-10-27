@@ -12,7 +12,6 @@ return result;
 };
 
 // Uncomment โค้ดด้านล่างเพื่อดูผลลัพธ์ของการทำงาน
-
 const addByTwo = matchAction(2);
 console.log(addByTwo.addByX(1)); // => should return 3
 console.log(addByTwo.addByX(2)); // => should return 4
